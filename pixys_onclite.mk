@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some AEX stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
