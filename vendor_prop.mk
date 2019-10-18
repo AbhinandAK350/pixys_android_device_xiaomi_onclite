@@ -204,6 +204,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
     vendor.perflocks_customized_for_apps=1
 
+# QC framework value-adds
+ro.vendor.qti.va_aosp.support=1
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.telephony.vt_cam_interface=1 \
