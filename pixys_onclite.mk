@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Bootanimation res
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 
 #Gapps
 TARGET_GAPPS_ARCH := arm64
