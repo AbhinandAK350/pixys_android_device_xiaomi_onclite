@@ -18,6 +18,9 @@ $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 1080
 
+#Gapps
+TARGET_GAPPS_ARCH := arm64
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := pixys_onclite
 PRODUCT_DEVICE := onclite
