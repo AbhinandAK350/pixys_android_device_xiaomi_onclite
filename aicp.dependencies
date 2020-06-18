@@ -1,0 +1,14 @@
+[
+ {
+   "repository": "kernel_xiaomi_onclite",
+   "target_path": "kernel/xiaomi/onclite",
+   "branch": "ten",
+   "remote": "PixysOS-Devices"
+ },
+ {
+   "repository": "vendor_xiaomi_onclite",
+   "target_path": "vendor/xiaomi/onclite",
+   "branch": "ten",
+   "remote": "PixysOS-Devices"
+ }
+]
