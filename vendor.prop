@@ -33,6 +33,9 @@ ro.sys.fw.dex2oat_thread_count=8
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
 
+# Dalvik dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # DRM
 drm.service.enabled=true
 
